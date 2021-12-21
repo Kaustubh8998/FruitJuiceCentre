@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(222, 224, 85, 0.5), rgba(201, 189, 87, 0.5)), url(/img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    background: rgb(255, 255, 63, 0.6);
+    border-radius: 0 0 30px 30px;
+    transition: 0.3s;
+}
+
+nav:hover {
+    background: rgb(255, 255, 63, 0.8)
+}
+
+#mainName {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 20px 5px 20px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 35px 10px 35px;
+}
+
+#home {
+    background: black;
+    color: white;
+}
+
+#contact:hover,
+#product:hover {
+    background: rgb(117, 117, 117);
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+}
+
+.text-box {
+    width: 30%;
+    background: rgb(255, 255, 255, 0.4);
+    /* margin-left: 5%; */
+    align-content: space-between;
+    padding: 10% 2% 8% 2%;
+    border-radius: 15px;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    background: rgb(255, 255, 255, 0.4);
+    padding: 10% 2% 8% 2%;
+    border-radius: 15px;
+    background-image: url(/img/apple.jpg);
+    background-position: center;
+    background-size: cover;
+    animation: slide 10s infinite;
+}
+
+@keyframes slide {
+    12.5% {
+        background-image: url(/img/apple.jpg);
+    }
+    25% {
+        background-image: url(/img/pineapple.jpg);
+    }
+    37.5% {
+        background-image: url(/img/lithcee.jpg);
+    }
+    50% {
+        background-image: url(/img/mango.jpg);
+    }
+    62.5% {
+        background-image: url(/img/watermelon.jpg);
+    }
+    75% {
+        background-image: url(/img/chickoo.jpg);
+    }
+    87.5% {
+        background-image: url(/img/sugarcane.jpg);
+    }
+    100% {
+        background-image: url(/img/lemon.jpg);
+    }
+}
+
+.text-box h1 {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 34px;
+}
+
+.text-box p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: light;
+}
+
+footer {
+    background: rgb(255, 255, 0, 0.7);
+    margin: 0;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 10px;
+    margin: 0;
+}
+
+footer h3 {
+    padding-top: 20px;
+    margin: 0;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+footer li {
+    margin: 0 10px;
+}
+
+footer a {
+    color: black;
+}
