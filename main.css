@@ -87,7 +87,7 @@ nav {
     background: rgb(255, 255, 255, 0.4);
     padding: 10% 2% 8% 2%;
     border-radius: 15px;
-    background-image: url(/img/apple.jpg);
+    background-image: url(img/apple.jpg);
     background-position: center;
     background-size: cover;
     animation: slide 10s infinite;
@@ -95,28 +95,28 @@ nav {
 
 @keyframes slide {
     12.5% {
-        background-image: url(/img/apple.jpg);
+        background-image: url(img/apple.jpg);
     }
     25% {
-        background-image: url(/img/pineapple.jpg);
+        background-image: url(img/pineapple.jpg);
     }
     37.5% {
-        background-image: url(/img/lithcee.jpg);
+        background-image: url(img/lithcee.jpg);
     }
     50% {
-        background-image: url(/img/mango.jpg);
+        background-image: url(img/mango.jpg);
     }
     62.5% {
-        background-image: url(/img/watermelon.jpg);
+        background-image: url(img/watermelon.jpg);
     }
     75% {
-        background-image: url(/img/chickoo.jpg);
+        background-image: url(img/chickoo.jpg);
     }
     87.5% {
-        background-image: url(/img/sugarcane.jpg);
+        background-image: url(img/sugarcane.jpg);
     }
     100% {
-        background-image: url(/img/lemon.jpg);
+        background-image: url(img/lemon.jpg);
     }
 }
 
